@@ -1,4 +1,3 @@
-
 # A1 – Portfolio and Product Analysis
 
 ## Objective
@@ -139,4 +138,15 @@ I changed the section title **“Semester arc”** to **“Class Schedule.”** 
 ### Documentation Standard
 
 I will make sure every assignment is clearly documented, organized, and easy for someone else to understand.
-```
+
+
+## Communicate
+
+### Riley Gardner
+
+Defending an engineering decision means providing enough evidence and reasoning to show why a decision makes sense. The decision should be logical and supported by science, mathematics, testing, or other engineering principles rather than just personal opinion.
+
+
+### Time Spent
+
+I spent approximately **4 hours** completing this assignment.
