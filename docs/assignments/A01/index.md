@@ -39,7 +39,7 @@ The portfolio consists mainly of one page containing information about multiple 
 The portfolio provides project overviews but does not include enough information about calculations, procedures, dimensions, or design steps for another person to independently recreate the work.
 
 **Evidence of Reasoning:**  
-The portfolio provides limited evidence of reasoning because it focuses more on final designs and project summaries than on explaining why specific design decisions were made.
+The portfolio provides limited evidence and reasoning because it focuses more on final designs and project summaries than on explaining why specific design decisions were made.
 
 **Professional Tone:**  
 Some descriptions use informal wording and sentence fragments, which makes parts of the documentation less suitable for formal technical communication with an employer or engineering colleague.
