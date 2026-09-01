@@ -2,9 +2,9 @@
  
 ## Objective 
 
-The objective of this assignment was to design a lightweight planar truss and analyze the forces acting through the structure. The truss needed to support two applied loads while using identical cross-sectional geometry for every member and identical pins at the connections. The goal was to use statics and stress calculations to determine a safe member size and pin size while keeping the overall structure lightweight.
+The objective of this assignment was to design a lightweight planar truss and analyze the forces acting through the structure. The truss needed to support two applied loads while using identical cross-sectional geometry for every member and identical pins at the connections. The goal was to use statics and stress calculations to determine a safe member size and pin size.
 
-For my design, I used a load of P = 20 kN, with the required dimensions of a = 0.4 m and b = 0.3 m. The truss members were designed using steel, while the connecting pins were designed using hardened tool steel. Safety factors were included in both calculations to make sure the final design could safely support the expected forces.
+For my design, I used a load of P = 20 kN, with the required dimensions of a = 0.4 m and b = 0.3 m. The truss members were designed using A500 steel, while the connecting pins were designed using hardened tool steel. Safety factors were included in both calculations to make sure the final design could safely support the expected forces.
 
 
 ## Analyze 
