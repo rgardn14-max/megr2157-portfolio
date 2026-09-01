@@ -9,9 +9,9 @@ For my design, I used a load of P = 20 kN, with the required dimensions of a = 0
 
 ## Analyze 
 
-![Part 2 truss design, FBD, and method of joints](images/IMG_2356.jpeg)
+![Part 2 truss design, FBD, and method of joints](IMG_2356.jpeg)
 
-![Part 2 method of joints and final internal forces](images/IMG_2357.jpeg)
+![Part 2 method of joints and final internal forces](IMG_2357.jpeg)
 
 ### Part 2 — Truss Design and Internal Forces
 
@@ -20,7 +20,7 @@ For this part, I designed a simple truss using the required dimensions of a = 0.
 My calculations showed that the largest internal member force was approximately 16.02 kN, occurring in members CE and DE. Finding the maximum internal force allows me to find the minimum cross-sectional area required for all members. I also identified member CD as a zero-force member, which was unexpected.
 
 
-![Part 3 cross-sectional area and truss weight calculations](images/IMG_2360.jpeg)
+![Part 3 cross-sectional area and truss weight calculations](IMG_2360.jpeg)
 
 ### Part 3 — Cross-Sectional Area and Truss Weight
 
@@ -33,7 +33,7 @@ This resulted in a calculated minimum area of approximately 162.6 mm², so the a
 I then calculated the lengths of all seven truss members and added them together to estimate the total amount of steel used. Using the selected cross-sectional area, total member length, and steel density, I estimated the truss mass and converted it into weight. This hand calculation gives me a value that I can later compare with the mass/weight predicted by my CAD model to check whether my analytical design and CAD geometry agree.
 
 
-![Part 4 pin design calculations](images/IMG_2361.jpeg)
+![Part 4 pin design calculations](IMG_2361.jpeg)
 
 ### Part 4 — Connecting Pin Design
 
@@ -70,4 +70,4 @@ Overall, the process went from selecting a truss geometry, creating free-body di
 
 The completed CAD files for my truss can be downloaded here:
 
-[Download Truss CAD Files](YOUR-CAD-FILE-LINK-HERE
+[Download Truss CAD Files](YOUR-CAD-FILE-LINK-HERE)
