@@ -74,12 +74,6 @@ n = 4.60
 
 The hand-calculated deflection was 0.009000 in compared with 0.008992 in from FEA.
 
-The percent difference was calculated using:
-
-Percent Difference = |FEA Deflection - Hand Deflection| / Hand Deflection × 100
-
-Percent Difference = |0.008992 - 0.009000| / 0.009000 × 100
-
 Percent Difference = 0.089%
 
 ![Final Calculations](HandCalc2.jpg)
