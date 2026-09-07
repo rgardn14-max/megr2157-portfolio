@@ -68,8 +68,6 @@ The safety factor was calculated using:
 
 Safety Factor = Yield Strength / Maximum Stress
 
-n = 40 ksi / 8.695 ksi
-
 n = 4.60
 
 The hand-calculated deflection was 0.009000 in compared with 0.008992 in from FEA.
@@ -110,6 +108,3 @@ The completed SolidWorks part can be downloaded below:
 
 [Download ParametricBeam.SLDPRT](ParametricBeam.SLDPRT)
 
-### Final Conclusion
-
-The final aluminum bar satisfied both the stiffness and strength requirements under the selected 400 lbf tensile load. The analytical and FEA deflections agreed within approximately 0.089%, and the maximum FEA stress of 8.695 ksi remained below the 40 ksi yield strength with a safety factor of approximately 4.60.
