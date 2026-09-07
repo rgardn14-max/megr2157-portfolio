@@ -24,7 +24,7 @@ In SolidWorks, I created global variables for load, elastic modulus, maximum def
 
 ### Material Selection
 
-The original SolidWorks aluminum material was close to the required stiffness, but some of its properties did not match the assignment values. I created a custom aluminum material so the Elastic Modulus, Poisson’s ratio, density, and yield strength could be set to the required values, including \(E \approx 10.0 \times 10^6\) psi and \(S_y = 40\) ksi.
+The original SolidWorks aluminum material was close to the required stiffness, but some of its properties did not match the assignment values. Then I created a custom aluminum material so the Elastic Modulus, Poisson’s ratio, density, and yield strength could be set to the required values, including \(E \approx 10.0 \times 10^6\) psi and \(S_y = 40\) ksi.
 
 ![Custom Aluminum Material](Material.jpg)
 
