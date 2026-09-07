@@ -94,6 +94,12 @@ One issue I encountered was entering force units directly into the SolidWorks gl
 
 Another issue was that the original SolidWorks aluminum material did not exactly match the required properties. I solved this by creating a custom material with the correct elastic modulus and 40 ksi yield strength.
 
+### Pin-Hole Stress Concentration
+
+I assumed a 0.125 in pin hole, which is half of the 0.250 in bar width, giving d/W = 0.50 and Kt ≈ 2.16. The estimated peak stress increases to about 35.2 ksi, giving a safety factor of about 1.14. The design would still remain below the 40 ksi yield strength, but the safety margin would be much smaller.
+
+![Pin-Hole Stress Concentration Calculation](HandCalc3.jpg)
+
 ### Lessons Learned
 
 This assignment helped me understand how load, cross-sectional area, elastic modulus, and length are related through axial deformation. It also showed how parametric CAD and FEA can be used together to design and verify a component.
@@ -107,4 +113,3 @@ The total time spent on this assignment was approximately 3 hours. This included
 The completed SolidWorks part can be downloaded below:
 
 [Download ParametricBeam.SLDPRT](ParametricBeam.SLDPRT)
-
