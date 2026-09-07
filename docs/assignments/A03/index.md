@@ -10,13 +10,23 @@ The goal of this assignment was to design an aluminum bar for stiffness using bo
 
 ### Design Requirements, Cross-Section, and Hand Calculation
 
-The bar was designed from aluminum with a maximum axial deflection of 0.009 in and an applied tensile load between 300 and 500 lbf. I selected a 400 lbf load, a Young’s Modulus of \(10.0 \times 10^6\) psi, and a circular diameter of 0.250 in, giving a cross-sectional area of approximately 0.04909 in². Using the direct-tension equation \(\delta = FL/AE\) and solving for length, the required bar length was calculated to be approximately 11.045 in.
+The bar was designed from aluminum with a maximum axial deflection of 0.009 in and an applied tensile load between 300 and 500 lbf. I selected a 400 lbf load, a Young’s Modulus of 10.0 × 10^6 psi, and a circular diameter of 0.250 in, giving a cross-sectional area of approximately 0.04909 in².
+
+Using the direct-tension equation:
+
+δ = FL / AE
+
+and solving for length:
+
+L = δAE / F
+
+the required bar length was calculated to be approximately 11.045 in.
 
 ![Hand Calculation](HandCalc1.jpg)
 
 ### Parametric CAD Setup and Model Verification
 
-In SolidWorks, I created global variables for load, elastic modulus, maximum deflection, diameter, area, and length. The circular sketch diameter was linked to the `Diameter` variable, while the extrusion depth was linked to the calculated `Length` variable so the geometry would update automatically. I temporarily changed one design parameter to verify that the model was parametric, then returned it to the final geometry of 0.250 in diameter and approximately 11.045 in length.
+In SolidWorks, I created global variables for load, elastic modulus, maximum deflection, diameter, area, and length. The circular sketch diameter was linked to the Diameter variable, while the extrusion depth was linked to the calculated Length variable so the geometry would update automatically. I temporarily changed one design parameter to verify that the model was parametric, then returned it to the final geometry of 0.250 in diameter and approximately 11.045 in length.
 
 ![SolidWorks Global Variables](GlobalVariables.jpg)
 
@@ -24,7 +34,7 @@ In SolidWorks, I created global variables for load, elastic modulus, maximum def
 
 ### Material Selection
 
-The original SolidWorks aluminum material was close to the required stiffness, but some of its properties did not match the assignment values. Then I created a custom aluminum material so the Elastic Modulus, Poisson’s ratio, density, and yield strength could be set to the required values, including \(E \approx 10.0 \times 10^6\) psi and \(S_y = 40\) ksi.
+The original SolidWorks aluminum material was close to the required stiffness, but some of its properties did not match the assignment values. I created a custom aluminum material so the Elastic Modulus, Poisson’s ratio, density, and yield strength could be set to the required values, including an Elastic Modulus of approximately 10.0 × 10^6 psi and a yield strength of 40 ksi.
 
 ![Custom Aluminum Material](Material.jpg)
 
@@ -52,13 +62,25 @@ The maximum von Mises stress from the FEA was approximately 8.695 ksi. Most of t
 
 ### Strength, Safety Factor, and Deflection Comparison
 
-The maximum FEA stress of 8.695 ksi was below the specified aluminum yield strength of 40 ksi, giving a safety factor of:
+The maximum FEA stress of 8.695 ksi was below the specified aluminum yield strength of 40 ksi.
 
-\[
-n = \frac{40}{8.695} \approx 4.60
-\]
+The safety factor was calculated using:
 
-The hand-calculated deflection was 0.009000 in compared with 0.008992 in from FEA, resulting in a percent difference of approximately 0.089%.
+Safety Factor = Yield Strength / Maximum Stress
+
+n = 40 ksi / 8.695 ksi
+
+n = 4.60
+
+The hand-calculated deflection was 0.009000 in compared with 0.008992 in from FEA.
+
+The percent difference was calculated using:
+
+Percent Difference = |FEA Deflection - Hand Deflection| / Hand Deflection × 100
+
+Percent Difference = |0.008992 - 0.009000| / 0.009000 × 100
+
+Percent Difference = 0.089%
 
 ![Final Calculations](HandCalc2.jpg)
 
@@ -86,7 +108,7 @@ This assignment helped me understand how load, cross-sectional area, elastic mod
 
 ### Time Spent
 
-The total time spent on this assignment was approximately **3 hours**. This included hand calculations, parametric CAD modeling, material setup, FEA setup, troubleshooting, and analyzing the final results.
+The total time spent on this assignment was approximately 3 hours. This included hand calculations, parametric CAD modeling, material setup, FEA setup, troubleshooting, and analyzing the final results.
 
 ### CAD File
 
@@ -96,4 +118,4 @@ The completed SolidWorks part can be downloaded below:
 
 ### Final Conclusion
 
-The final aluminum bar satisfied both the stiffness and strength requirements under the selected 400 lbf tensile load. The analytical and FEA deflections agreed within approximately 0.089%, and the maximum FEA stress of 8.695 ksi remained below the 40 ksi yield strength with a safety factor of approximately 4.60.-
+The final aluminum bar satisfied both the stiffness and strength requirements under the selected 400 lbf tensile load. The analytical and FEA deflections agreed within approximately 0.089%, and the maximum FEA stress of 8.695 ksi remained below the 40 ksi yield strength with a safety factor of approximately 4.60.
