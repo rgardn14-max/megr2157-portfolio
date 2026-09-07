@@ -84,6 +84,12 @@ The analytical and FEA results are nearly identical because the bar has a unifor
 
 For this simple geometry, I would trust the analytical calculation slightly more for overall axial deflection because the bar closely matches the assumptions of the direct-tension equation. The FEA is still valuable because it verifies the calculation and provides the stress and displacement distributions throughout the model.
 
+### Pin-Hole Stress Concentration
+
+I assumed a 0.125 in pin hole, which is half of the 0.250 in bar width, giving d/W = 0.50 and Kt ≈ 2.16. The estimated peak stress increases to about 35.2 ksi, giving a safety factor of about 1.14. The design would still remain below the 40 ksi yield strength, but the safety margin would be much smaller.
+
+![Pin-Hole Stress Concentration Calculation](HandCalc3.jpg)
+
 ---
 
 ## Communicate
@@ -93,12 +99,6 @@ For this simple geometry, I would trust the analytical calculation slightly more
 One issue I encountered was entering force units directly into the SolidWorks global-variable equations, which SolidWorks did not accept as expected. I corrected this by using consistent numerical IPS values for the equations and documenting the associated units separately.
 
 Another issue was that the original SolidWorks aluminum material did not exactly match the required properties. I solved this by creating a custom material with the correct elastic modulus and 40 ksi yield strength.
-
-### Pin-Hole Stress Concentration
-
-I assumed a 0.125 in pin hole, which is half of the 0.250 in bar width, giving d/W = 0.50 and Kt ≈ 2.16. The estimated peak stress increases to about 35.2 ksi, giving a safety factor of about 1.14. The design would still remain below the 40 ksi yield strength, but the safety margin would be much smaller.
-
-![Pin-Hole Stress Concentration Calculation](HandCalc3.jpg)
 
 ### Lessons Learned
 
