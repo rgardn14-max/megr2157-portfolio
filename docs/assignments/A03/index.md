@@ -16,7 +16,7 @@ The bar was designed from aluminum with a maximum axial deflection of 0.009 in a
 
 ### Parametric CAD Setup and Model Verification
 
-In SolidWorks, I created global variables for load, elastic modulus, maximum deflection, diameter, area, and length. The circular sketch diameter was linked to the `Diameter` variable, while the extrusion depth was linked to the calculated `Length` variable so the geometry would update automatically. I temporarily changed one design parameter to verify that the model was truly parametric, then returned it to the final geometry of 0.250 in diameter and approximately 11.045 in length.
+In SolidWorks, I created global variables for load, elastic modulus, maximum deflection, diameter, area, and length. The circular sketch diameter was linked to the `Diameter` variable, while the extrusion depth was linked to the calculated `Length` variable so the geometry would update automatically. I temporarily changed one design parameter to verify that the model was parametric, then returned it to the final geometry of 0.250 in diameter and approximately 11.045 in length.
 
 ![SolidWorks Global Variables](GlobalVariables.jpg)
 
