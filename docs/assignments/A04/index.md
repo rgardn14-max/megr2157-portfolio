@@ -48,7 +48,7 @@ I created the final motor mount in SolidWorks using the dimensions from my calcu
 ## Communicate
 
 ### Final Design and Deflection Considerations
-The final design is a PLA motor mount with a 15 mm thick motor-support feature and a 28 mm thick wall-support feature. The geometry was chosen to limit deflection while still fitting the specific motor, with Feature 1 kept relatively short and Feature 2 made thicker because of its longer unsupported length. The motor-support section follows the shape of the motor and partially surrounds it to keep the load close to the support. The mount also includes shaft clearance, eight M3 motor mounting holes, and holes for attaching the bracket to the rigid wall.
+The final design is a PLA motor mount with a 15 mm thick motor-support feature and a 28 mm thick wall-support feature. The geometry was chosen to limit deflection while still fitting the specific motor, with Feature 1 kept relatively short and Feature 2 made thicker because of its longer unsupported length. The motor-support section follows the shape of the motor and partially surrounds it to keep the load close to the support. The mount also includes shaft clearance, 12 M3 motor mounting holes including holes for attaching the bracket to the rigid wall.
 
 
 ### Lessons Learned
