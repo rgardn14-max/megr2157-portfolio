@@ -26,7 +26,7 @@ Feature 2 is the vertical section of the mount that attaches the design to rigid
 
 ![Feature 2 calculations](HandCalc3.jpg)
 
-![Feature 2 calculations](HandCalc4.jpg)
+![Feature 2 calculations](HandCalc4jpg.jpg)
 
 ### Mistakes and Design Changes
 
@@ -39,22 +39,17 @@ One of the main difficulties I had was determining the correct thickness for eac
 After completing the calculations for both features, I created an isometric sketch of the full motor mount. The sketch used the final 15 mm thickness for Feature 1 and 28 mm thickness for Feature 2 and helped me determine how the two sections would connect before beginning the SolidWorks model. I also included the important motor, shaft, bolt, and wall-mounting locations in the sketch.
 
 ![Isometric sketch of motor mount](Iso.jpg)
-
-### Design Features to Minimize Deflection
-
-The overall geometry of the mount was chosen to help limit deflection while still fitting the specific motor. Feature 1 was kept relatively short and given a 15 mm thickness to create a stiff support directly underneath the motor. Feature 2 was made 28 mm thick because its longer unsupported length made it more sensitive to bending. The motor-support geometry also follows the shape and dimensions of the motor and partially surrounds it, allowing the mount to provide support close to the motor instead of extending the load farther away from the structure.
-
-### Final Design
-
-The final design is a PLA motor mount consisting of a 15 mm thick motor-support feature and a 28 mm thick wall-support feature. The design was created specifically around the dimensions of the assigned gear motor and includes a partial motor cover, shaft clearance, four M3 motor mounting holes, and holes for attaching the bracket to the rigid wall. The final geometry combines the results of the beam analysis with the physical dimensions needed to properly mount the motor.
-
-## Communicate
-
 ### CAD Model and Parametric Design
 
 I created the final motor mount in SolidWorks using the dimensions from my calculations and the dimensions of the actual motor. The motor-support area was designed around the motor geometry so that the mount provides a partial cover around the motor rather than only supporting it on a flat surface. I included the shaft opening and the required 3.4 mm clearance holes for the M3 bolts. For the parametric portion of the design, I created an M3 global parameter and used it to dimension the bolt holes throughout the model. I did not create global parameters for every dimension because most of the other dimensions were only used once, so linking them would not have added much benefit.
 
 ![Final SolidWorks motor mount](CADFRAME.jpg)
+
+## Communicate
+
+### Final Design and Deflection Considerations
+The final design is a PLA motor mount with a 15 mm thick motor-support feature and a 28 mm thick wall-support feature. The geometry was chosen to limit deflection while still fitting the specific motor, with Feature 1 kept relatively short and Feature 2 made thicker because of its longer unsupported length. The motor-support section follows the shape of the motor and partially surrounds it to keep the load close to the support. The mount also includes shaft clearance, four M3 motor mounting holes, and holes for attaching the bracket to the rigid wall.
+
 
 ### Lessons Learned
 
