@@ -43,12 +43,20 @@ Feature A was analyzed as a cantilever beam using the cantilever end-load deflec
 ![Stiffness Calculation - Feature E](HandCalc10.jpg)
 
 ## Decide
+### Generate Multiview Sketches
 
+Two separate multiview sketches were created to document the dimensions obtained from the calculations. The first sketch shows the dimensions determined from the stress analysis, while the second sketch shows the dimensions determined from the stiffness analysis. Keeping the two sets of dimensions separate made it easier to compare the results and see which analysis controlled the required size of each feature.
+
+![Stress Analysis Multiview Sketch](Stress.jpg)
+
+![Deflection Analysis Multiview Sketch](Deflection.jpg)
 ### Governing Failure Mode
 
 For Feature A, stress governed the final required diameter. The stress analysis required a minimum diameter of 0.726 in, while the stiffness analysis required a minimum diameter of 0.561 in. The stress requirement was therefore 0.165 in larger. This showed that satisfying the deflection requirement does not automatically mean that a feature is strong enough to prevent yielding.
 
 Feature C was also an interesting comparison because the two requirements were very close. Stress required a thickness of 0.433 in, while stiffness required 0.423 in. The difference was only 0.010 in. Even though stress still governed, this near-tie showed that both strength and stiffness can become important design constraints for the same feature.
+
+## Communicate
 
 ### Error Propagation
 
@@ -58,15 +66,6 @@ One mistake made during the design process was initially choosing an incorrect w
 
 One important assumption was that the bracket and strap loading were symmetric. This allowed the 1200-lbf load carried by Feature C to split evenly into two 600-lbf reactions. Those 600-lbf reactions were then used to analyze Features D and E. If the load were not centered or the bracket were not symmetric, one side could carry more than 600 lbf. The dimensions of Features D and E on the more heavily loaded side would then need to increase to keep the stress and deformation within the required limits.
 
-## Communicate
-
-### Generate Multiview Sketches
-
-Two separate multiview sketches were created to document the dimensions obtained from the calculations. The first sketch shows the dimensions determined from the stress analysis, while the second sketch shows the dimensions determined from the stiffness analysis. Keeping the two sets of dimensions separate made it easier to compare the results and see which analysis controlled the required size of each feature.
-
-![Stress Analysis Multiview Sketch](Stress.jpg)
-
-![Deflection Analysis Multiview Sketch](Deflection.jpg)
 
 ### Time Spent
 
