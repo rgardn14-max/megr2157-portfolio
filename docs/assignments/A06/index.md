@@ -22,9 +22,7 @@ Features B and D were both originally set up using parametric strength equations
 
 For Feature B, the axial stress equation was used:
 
-\[
-t_B=\frac{P}{b\sigma_{allow}}
-\]
+`tB = P / (b × sigma_allow)`
 
 Using a load of 1200 lbf, a width of 0.25 in, and an allowable stress of 32,000 psi gave a required Feature B thickness of 0.150 in.
 
@@ -69,9 +67,7 @@ A looser X.X ± .02 tolerance was used on a non-critical dimension where a small
 
 Using the tightest tolerance on every dimension would make the part harder and more expensive to manufacture without improving the function of the non-critical features.
 
-![Multiview Engineering Drawing](Drawling.jpg)
-
-[Download SolidWorks Drawing](Bracket-Drawling.SLDDRW)
+![Multiview Engineering Drawing](Drawing.jpg)
 
 ## Communicate
 
@@ -81,9 +77,7 @@ Features B and D were both originally set up using equations in SolidWorks.
 
 Feature B used the strength equation:
 
-\[
-t_B=\frac{P}{b\sigma_{allow}}
-\]
+`tB = P / (b × sigma_allow)`
 
 When the Feature B width was changed from 0.75 in to 0.25 in, the equation-driven thickness changed from 0.050 in to 0.150 in. This showed how a parametric model can respond when one of the values used in the calculation changes.
 
@@ -110,3 +104,7 @@ The drawing portion also showed how important tolerances are. Functional mating 
 ### Time Spent
 
 The total time spent completing this assignment was approximately 4 hours. This included building and correcting the CAD model, setting up global variables and equations, adjusting the geometry, creating the multiview drawing, adding dimensions and tolerances, and organizing the final documentation.
+
+### CAD File
+
+[Download SolidWorks Drawing](Bracket-Drawling.SLDDRW)
