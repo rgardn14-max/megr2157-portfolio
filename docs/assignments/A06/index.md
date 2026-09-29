@@ -57,12 +57,7 @@ The drawing included:
 - Third-angle projection
 - Main bracket dimensions
 - Sliding-fit dimensions
-- Engineered tolerances
-
-The sliding-fit dimensions were more important because they control how the bracket fits over the rigid T-beam. Most normal dimensions were kept at two decimal places, while the more important dimensions used more decimal places.
-A tighter X.XXX ± .005 tolerance was used on a sliding-fit dimension because it directly affects how the bracket fits on the T-beam. If this dimension changes too much, the bracket could be too loose or not fit at all.
-A looser X.X ± .02 tolerance was used on a non-critical dimension because a small change would not affect how the bracket works.
-Using tight tolerances on every dimension would make the part harder and more expensive to make without really helping the design.
+  
 ![Multiview Engineering Drawing](Drawing.jpg)
 
 ## Communicate
@@ -83,11 +78,9 @@ Some parts of the model updated through the parameters, while other surrounding 
 
 ### Tolerance Reflection
 
-A tighter X.XXX ± .005 tolerance was used on a sliding-fit dimension because it is part of a mating surface between the bracket and the rigid T-beam. This area needs more control because too much variation could prevent the bracket from sliding onto the beam correctly.
-
-A looser X.X ± .02 tolerance was used on a non-critical dimension because small changes in that feature would not affect the bracket's main function.
-
-Using unnecessarily tight tolerances on non-critical features would make manufacturing more difficult and could increase cost because more precise machining and inspection would be required.
+A tighter X.XXX ± .005 tolerance was used on a sliding-fit dimension because it directly affects how the bracket fits on the T-beam. If this dimension changes too much, the bracket could be too loose or not fit at all.
+A looser X.X ± .02 tolerance was used on a non-critical dimension because a small change would not affect how the bracket works.
+Using tight tolerances on every dimension would make the part harder and more expensive to make without really helping the design.
 
 ### Lessons Learned
 
