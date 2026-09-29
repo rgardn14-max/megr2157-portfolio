@@ -59,14 +59,10 @@ The drawing included:
 - Sliding-fit dimensions
 - Engineered tolerances
 
-The sliding-fit dimensions were treated as more important because they control how the bracket fits over the rigid T-beam. Most normal dimensions were kept at two decimal places, while dimensions requiring more control were shown with greater precision.
-
-A tighter X.XXX ± .005 tolerance was used on a sliding-fit dimension because it is a functional mating surface. A small change in this dimension could cause the bracket to become too loose or interfere with the T-beam.
-
-A looser X.X ± .02 tolerance was used on a non-critical dimension where a small change would not affect the way the bracket fits or functions.
-
-Using the tightest tolerance on every dimension would make the part harder and more expensive to manufacture without improving the function of the non-critical features.
-
+The sliding-fit dimensions were more important because they control how the bracket fits over the rigid T-beam. Most normal dimensions were kept at two decimal places, while the more important dimensions used more decimal places.
+A tighter X.XXX ± .005 tolerance was used on a sliding-fit dimension because it directly affects how the bracket fits on the T-beam. If this dimension changes too much, the bracket could be too loose or not fit at all.
+A looser X.X ± .02 tolerance was used on a non-critical dimension because a small change would not affect how the bracket works.
+Using tight tolerances on every dimension would make the part harder and more expensive to make without really helping the design.
 ![Multiview Engineering Drawing](Drawing.jpg)
 
 ## Communicate
