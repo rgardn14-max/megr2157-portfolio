@@ -85,17 +85,7 @@ The entire assignment took approximately 3 hours, including creating and modifyi
 
 ### Final CAD File
 
-[Download Final SolidWorks CAD Model](./Design3.SLDPRT)
 
 
-
-
-
-
-
-
-
-
-.
 
 **[Download Final SolidWorks CAD Model](Design3.SLDPRT)**
