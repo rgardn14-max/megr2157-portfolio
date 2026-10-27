@@ -73,9 +73,19 @@ I learned that even small changes to a design can affect how well it performs, b
 
 ### Hand Calculations and Tables
 
-The following PDF contains my hand calculations and simulation results for all three designs, including mesh sizes, stress, displacement, safety factors, and convergence calculations.
+The following images show my hand calculations and simulation results for all three designs, including mesh sizes, stress, displacement, safety factors, and convergence calculations.
 
-[View Hand Calculations and Tables](./H1.pdf)
+#### Hand Calculations – Page 1
+
+![Hand Calculations Page 1](H1.jpg)
+
+#### Hand Calculations – Page 2
+
+![Hand Calculations Page 2](H2.jpg)
+
+#### Hand Calculations – Page 3
+
+![Hand Calculations Page 3](H3.jpg)
 
 ### Time Spent
 
@@ -85,7 +95,6 @@ The entire assignment took approximately 3 hours, including creating and modifyi
 
 ### Final CAD File
 
+Below is my final SolidWorks bracket design (Design 3), which achieved a safety factor of 5.44.
 
-
-
-**[Download Final SolidWorks CAD Model](Design3.SLDPRT)**
+**[CLICK HERE TO DOWNLOAD FINAL SOLIDWORKS CAD FILE](https://github.com/rgardn14-max/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A07/Design3.SLDPRT)**
