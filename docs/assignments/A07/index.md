@@ -91,7 +91,6 @@ The following images show my hand calculations and simulation results for all th
 
 The entire assignment took approximately 3 hours, including creating and modifying the three designs, running simulations, checking mesh convergence, and completing the documentation.
 
-**Total Time: Approximately 3 Hours**
 
 ### Final CAD File
 
