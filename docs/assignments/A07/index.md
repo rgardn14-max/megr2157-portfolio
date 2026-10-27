@@ -1,4 +1,3 @@
-
 # A7 – Bracket Design and Stress Analysis
 
 ## Objective
@@ -94,6 +93,6 @@ The entire assignment took approximately 3 hours, including creating and modifyi
 
 ### Final CAD File
 
-Below is my final SolidWorks bracket design (Design 3), which achieved a safety factor of 5.44.
+Below is my final SolidWorks bracket design, which achieved a safety factor of 5.44.
 
-**[CLICK HERE TO DOWNLOAD FINAL SOLIDWORKS CAD FILE](https://github.com/rgardn14-max/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A07/Design3.SLDPRT)**
+[Download Final SolidWorks CAD File](https://github.com/rgardn14-max/megr2157-portfolio/raw/refs/heads/main/docs/assignments/A07/Design3.SLDPRT)
