@@ -92,4 +92,4 @@ Approximately 7 hours.
 
 ### Downloadable CAD File
 
-[Download Gearbox SolidWorks Assembly (A8.SLDASM)](A8.SLDASM)
+[Download Complete Gearbox CAD Assembly](A8_Gearbox.zip)
