@@ -22,7 +22,7 @@ Using the provided 1060 hardened steel, I calculated the minimum shaft size need
 
 ### 3. Journal Bearing Design
 
-I used two bearings per shaft, with the pulley centered between them so each bearing supported 5 lbf. With a nominal bore and length of 0.250 inches, the bearing pressure was 80 psi. At 1500 rpm, the shaft surface velocity was 98.17 ft/min, giving a PV value of 7,853.98 psi·ft/min. I selected SAE 841 oil-impregnated bronze because it retains oil to lubricate the shaft. The published limits used for comparison were 2,000 psi, 1,200 ft/min, and 50,000 psi·ft/min, all above the calculated values. I selected McMaster-Carr part 6391K131, an oil-embedded SAE 841 bronze sleeve bearing for a 1/4-inch shaft, with a nominal outside diameter of 3/8 inch and a length of 1/4 inch. Four bearings are needed.
+I used two bearings per shaft, with the pulley centered between them so each bearing supported 5 lbf. With a bore and length of 0.250 inches, the bearing pressure was 80 psi. At 1500 rpm, the shaft surface velocity was 98.17 ft/min, giving a PV value of 7,853.98 psi·ft/min. I selected SAE 841 oil-impregnated bronze because it retains oil to lubricate the shaft. The published limits used for comparison were 2,000 psi, 1,200 ft/min, and 50,000 psi·ft/min, all above the calculated values. I selected McMaster-Carr part 6391K131, an oil-embedded SAE 841 bronze sleeve bearing for a 1/4-inch shaft, with a outside diameter of 3/8 inch and a length of 1/4 inch. Four bearings are needed.
 
 ![Journal Bearing Calculations](H4.jpg)
 
