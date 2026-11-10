@@ -2,7 +2,7 @@
 
 ## Objective
 
-Design a pulley system that transfers power between two parallel shafts. Select a belt, size the shafts, choose journal bearings, and design a frame to support the system.
+Design a pulley system to transfer power between two parallel shafts using two 3-inch pulleys. Select a belt, size the shafts and bearings, and design a frame to support the system.
 
 ## Analyze
 
@@ -10,9 +10,9 @@ Design a pulley system that transfers power between two parallel shafts. Select 
 
 I used two 3-inch pulleys spaced 5 inches apart, a speed of 1500 rpm, and an initial belt tension of 5 lbf. Using an assumed friction coefficient of 0.30, I calculated a tight-side tension of 7.196 lbf and a loose-side tension of 2.804 lbf at the slip limit. With a belt yield strength of 471 psi and a safety factor of 3, the minimum area was 0.04583 in² and the minimum diameter was 0.2416 inches. I selected 5/16-inch polyurethane round belting, McMaster-Carr part 59725K733. The selected belt had a calculated tensile safety factor of 5.02 and an installed outer circumference of 20.4065 inches.
 
-![Belt Calculations — Page 1](H1.jpg)
+![Belt Calculations 1](H1.jpg)
 
-![Belt Calculations — Page 2](H2.jpg)
+![Belt Calculations 2](H2.jpg)
 
 ### 2. Shaft Design
 
@@ -22,7 +22,7 @@ Using the provided 1060 hardened steel, I calculated the minimum shaft size need
 
 ### 3. Journal Bearing Design
 
-I used two bearings per shaft, with the pulley centered between them so each bearing supported 5 lbf. With a nominal bore and length of 0.250 inches, the bearing pressure was 80 psi. At 1500 rpm, the shaft surface velocity was 98.17 ft/min, giving a PV value of 7,853.98 psi·ft/min. I selected SAE 841 oil-impregnated bronze because it retains oil to lubricate the shaft. The published limits used for comparison were 2,000 psi, 1,200 ft/min, and 50,000 psi·ft/min, all above the calculated values.
+I used two bearings per shaft, with the pulley centered between them so each bearing supported 5 lbf. With a nominal bore and length of 0.250 inches, the bearing pressure was 80 psi. At 1500 rpm, the shaft surface velocity was 98.17 ft/min, giving a PV value of 7,853.98 psi·ft/min. I selected SAE 841 oil-impregnated bronze because it retains oil to lubricate the shaft. The published limits used for comparison were 2,000 psi, 1,200 ft/min, and 50,000 psi·ft/min, all above the calculated values. I selected McMaster-Carr part 6391K131, an oil-embedded SAE 841 bronze sleeve bearing for a 1/4-inch shaft, with a nominal outside diameter of 3/8 inch and a length of 1/4 inch. Four bearings are needed.
 
 ![Journal Bearing Calculations](H4.jpg)
 
@@ -40,14 +40,16 @@ I designed an aluminum frame with a base and two upright walls to hold the beari
 
 ### 5. Engineering Lessons Learned
 
-I learned why the belt tensions are added to find the bearing load but subtracted to find torque. Both sides pull the pulley toward the other shaft, but they try to turn it in opposite directions. I also learned that choosing a bearing depends on both its load and how fast the shaft turns, which is why we calculate PV. Another thing I learned was that the shaft fits inside the bearing, while the hole in the frame must fit the outside of the bearing.
+I learned why the belt tensions are added to find the bearing load but subtracted to find torque. Both sides pull the pulley toward the other shaft, but they try to turn it in opposite directions. I also learned that choosing a bearing depends on both its load and how fast the shaft turns, which is why we calculate PV.
 
 ### Time Spent
 
 3 hours
 
-### Belt Selection and CAD File
+### Parts and CAD File
 
-[McMaster-Carr Polyurethane Round Belting — 59725K733](https://www.mcmaster.com/59725K733/)
+[Belt – McMaster-Carr 59725K733](https://www.mcmaster.com/59725K733/)
+
+[Bearings – McMaster-Carr 6391K131](https://www.mcmaster.com/6391K131/)
 
 [Download Frame CAD File](House.SLDPRT)
