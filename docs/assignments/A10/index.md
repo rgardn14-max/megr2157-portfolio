@@ -39,18 +39,17 @@ Next, I checked the crosshead deflection. Using $I_{\mathrm{req}} = PL^3/(48E\de
 
 ### CAD Assembly and Download
 
-Pending final CAD requirements.
+I drew the flat profile of the crosshead using the dimensions from our calculations, then extruded it to length. I imported the selected lead screws and flanged nuts, along with the T-slotted framing rails and corner brackets for the frame. Finally, I positioned the parts in the assembly so the lead screws lined up with the flanged nuts on the crosshead.
 
-<!-- Add the assembly image and a working download link to the CAD files here. -->
+![Lead screw assembly showing the crosshead and frame](C1.jpg)
 
-
+[Download the A10 Lead Screw Assembly (STEP file)](./A10%20Lead%20Screw%20Assembly.step)
 
 ## Communicate
 
-### Lessons Learned 
+### Lessons Learned
 
 I learned how to estimate bending stress in a bronze nut thread by treating it as a small rectangular beam. Drawing one thread helped me see how the force from the screw creates a bending moment at the root, where the thread joins the nut. I also learned that the calculated stress depends on how the engaged threads share the load. If one thread carries more than its assumed share, its bending stress will be higher.
-
 
 ### Time Spent
 
