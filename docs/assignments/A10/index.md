@@ -37,7 +37,7 @@ Next, I checked the crosshead deflection. Using $I_{\mathrm{req}} = PL^3/(48E\de
 
 ![Crosshead design work, page 3](H6.jpg)
 
-### CAD Assembly and Download
+### CAD Assembly - Ben Hackl
 
 I drew the flat profile of the crosshead using the dimensions from our calculations, then extruded it to length. I imported the selected lead screws and flanged nuts, along with the T-slotted framing rails and corner brackets for the frame. Finally, I positioned the parts in the assembly so the lead screws lined up with the flanged nuts on the crosshead.
 
@@ -55,3 +55,4 @@ I learned how to estimate bending stress in a bronze nut thread by treating it a
 
 2 Hours Riley Gardner
 1.5 Hours Ty Hord
+1.5 Hours Ben Hackl
