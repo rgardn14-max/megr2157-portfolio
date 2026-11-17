@@ -23,9 +23,11 @@ For my part of the tensile tester, I chose two 18-inch, 1/2–10 Acme lead screw
 1. [Lead Screw — McMaster-Carr Part 98940A305](https://www.mcmaster.com/98940A305/)
 2. [Bronze Flanged Nut — McMaster-Carr Part 97790A110](https://www.mcmaster.com/97790A110/)
 
-### Crosshead Design — [Partner Name]
+### Design the Crosshead — Ty Hord
 
-<!-- Partner paragraph goes here. -->
+I started by listing the knowns and unknowns for the crosshead. I calculated a maximum bending moment of 225,000 N·mm and checked a crosshead height of 50.8 mm. At that height, the calculated safety factor was 33.65, which exceeds the required safety factor of 4.
+
+Next, I checked the crosshead deflection. Using $I_{\mathrm{req}} = PL^3/(48E\delta_{\max})$ with a deflection limit of 0.1 mm, I calculated a required area moment of inertia of 551,070.39 mm⁴. For a rectangular cross section, I used $h_{\min} = (12I_{\mathrm{req}}/b)^{1/3}$ to find a minimum height of 47.047 mm. At the selected height of 50.8 mm, the calculated deflection was 0.079 mm, which is below the 0.1 mm limit.
 
 #### Crosshead Calculations and Sketch
 
@@ -41,20 +43,16 @@ Pending final CAD requirements.
 
 <!-- Add the assembly image and a working download link to the CAD files here. -->
 
-## Decide
 
-<!-- Add the team's Pugh matrix and explain how the selected concept guided the design. -->
 
 ## Communicate
 
-### Lessons Learned — Riley Gardner
+### Lessons Learned 
 
 I learned how to estimate bending stress in a bronze nut thread by treating it as a small rectangular beam. Drawing one thread helped me see how the force from the screw creates a bending moment at the root, where the thread joins the nut. I also learned that the calculated stress depends on how the engaged threads share the load. If one thread carries more than its assumed share, its bending stress will be higher.
 
-### Lessons Learned — [Partner Name]
-
-<!-- Partner's lessons learned paragraph goes here. -->
 
 ### Time Spent
 
-<!-- Add each team member's actual time here. -->
+2 Hours Riley Gardner
+1.5 Hours Ty Hord
