@@ -31,3 +31,52 @@ I selected two NBK MJC-40CS-WH-10-15 flexible jaw couplings. Each coupling conne
 
 ![Coupler selection and torque verification](H3.jpg)
 
+## Parts 4–6 Ty Hord
+
+For this assignment, I had to do some handwritten calculations. After I was done with those, I moved over to Cad work, where I made the frame assembly and did an FEA on all of the forces. I took screenshots and completed multiple meshes of each assembly as well as the uprights. Once I was done recording my information and gathering my screenshots, I wrote up my results, and we put them into the website.
+
+### Hand Calculations
+
+![Hand calculations, page H4](./H4.jpg)
+
+![Hand calculations, page H5](./H5.jpg)
+
+![Hand calculations, page H6](./H6.jpg)
+
+![Hand calculations, page H7](./H7.jpg)
+
+![Hand calculations, page H8](./H8.jpg)
+
+![Hand calculations, page H9](./H9.jpg)
+
+### Finite Element Analysis
+
+#### Frame and Motor Mounts
+
+![C2 – Frame and motor mount displacement plot](./C2.jpg)
+
+![C3 – Frame and motor mount displacement contour around the mounting holes](./C3.jpg)
+
+![C4 – Frame and motor mount von Mises stress plot](./C4.jpg)
+
+![C5 – Stress distribution around the mounting holes](./C5.jpg)
+
+#### Vertical Frame Components
+
+![C6 – Upright von Mises stress plot](./C6.jpg)
+
+![C7 – Upright X-displacement plot](./C7.jpg)
+
+![C8 – Upright simulation run summary](./C8.jpg)
+
+![C9 – Second upright von Mises stress plot](./C9.jpg)
+
+![C10 – Second upright X-displacement plot](./C10.jpg)
+
+### CAD Files
+
+- [A11 assembly](./assignment11.asm.1)
+- [Motor mount](./mount.prt.2)
+- [Frame](./frame2.prt.1)
+- [Vertical uprights](./q6uprights.prt.1)
+
