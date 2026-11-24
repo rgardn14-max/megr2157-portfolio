@@ -4,8 +4,9 @@
 
 Select motors and couplers for the two-lead-screw tensile tester designed in A10 and design a bracket to mount each motor to the frame. The drive system must move the crosshead at 1–50 mm/min and provide enough torque to apply a 2 kN tensile load with a safety factor of 4.
 
+## Parts 1–3 – Riley Gardner
 
-### Motor Selection Parts 1-3 Riley Gardner
+### Motor Selection
 
 I selected two 60 W Oriental Motor brushless DC gearmotors, one for each lead screw. Using the screw lead of 0.100 in/rev from A10, I calculated that each screw must turn at 0.394–19.69 rpm to move the crosshead at 1–50 mm/min. Each gearmotor provides 8.2 N·m of rated torque, which exceeds the required 5.64 N·m per screw. The required torque includes the safety factor of 4.
 
@@ -15,7 +16,7 @@ I selected two 60 W Oriental Motor brushless DC gearmotors, one for each lead sc
 
 [Oriental Motor gearmotor, gearhead, and driver](https://catalog.orientalmotor.com/en-us/item/blv-r-series-brushless-dc-motor-speed-control/shop-blv-r-series-brushless-dc-motors/blmr460shk-gfv-gfv4g50-blvd-krd)
 
-### Motor Mount 
+### Motor Mount
 
 I designed an 8 mm thick aluminum plate in SolidWorks to mount each motor to the top of the frame. I used the motor’s four-hole mounting pattern, added four separate holes for the frame bolts, and included a center opening to align the motor shaft with the lead screw. I checked the bearing stress at the bolt holes and selected the 8 mm plate for stiffness and thread engagement in the tapped motor holes.
 
@@ -31,9 +32,9 @@ I selected two NBK MJC-40CS-WH-10-15 flexible jaw couplings. Each coupling conne
 
 ![Coupler selection and torque verification](H3.jpg)
 
-## Parts 4–6 Ty Hord
+## Parts 4–6 – Ty Hord
 
-For this assignment, I had to do some handwritten calculations. After I was done with those, I moved over to Cad work, where I made the frame assembly and did an FEA on all of the forces. I took screenshots and completed multiple meshes of each assembly as well as the uprights. Once I was done recording my information and gathering my screenshots, I wrote up my results, and we put them into the website.
+For this assignment, I had to do some handwritten calculations. After I was done with those, I moved over to CAD work, where I made the frame assembly and did an FEA on all of the forces. I took screenshots and completed multiple meshes of each assembly as well as the uprights. Once I was done recording my information and gathering my screenshots, I wrote up my results, and we put them into the website.
 
 ### Hand Calculations
 
@@ -80,3 +81,31 @@ For this assignment, I had to do some handwritten calculations. After I was done
 - [Frame](./frame2.prt.1)
 - [Vertical uprights](./q6uprights.prt.1)
 
+## Parts 7–8 – Ben Hackl
+
+### Question 7 – Bottom Bearing Mount
+
+I started designing a bottom bearing mount with an RC3 fit so the lower end of the lead screw could rotate smoothly while supported by the frame. I used *Machinery’s Handbook* to size the bolt holes. The mount design was still incomplete at the deadline.
+
+### Question 8 – Bill of Materials and Project Cost
+
+I compiled the parts, prices, and team hours from both parts of the project into one spreadsheet. I calculated labor at $35 per hour and added it to the parts cost to get the total project cost.
+
+![Bill of materials and project cost summary](./T1.jpg)
+
+[View the full bill of materials and project cost spreadsheet](https://docs.google.com/spreadsheets/d/1hKD_HDQQSDu_PG1Rb-8Mnu6MC0V67PxmGB8dSDxmi24/edit?usp=sharing)
+
+## Question 9 – Lessons Learned
+
+**Riley Gardner:** I learned how to use the screw lead to find the motor speed needed to move the crosshead. I also applied a safety factor of 4 to the operating torque of 1.41 N·m per motor, giving me a design torque of 5.64 N·m for sizing the coupler.
+
+**Ty Hord:** I learned how the 1,000 N load from each lead screw bends the top rail because the screw sits inward from the upright. I also learned how to check the FEA results by refining the mesh near the corner brackets and comparing stress and deflection between runs.
+
+## Time Spent
+
+| Team member | Hours |
+| --- | ---: |
+| Riley Gardner | 4 |
+| Ben Hackl | 4 |
+| Ty Hord | 6 |
+| **Total** | **14** |
