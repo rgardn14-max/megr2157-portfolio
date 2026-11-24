@@ -8,7 +8,7 @@ Select motors and couplers for the two-lead-screw tensile tester designed in A10
 
 ### Motor Selection
 
-I selected two 60 W Oriental Motor brushless DC gearmotors, one for each lead screw. Using the 0.100 in/rev screw lead from A10, I calculated that each screw must turn at 0.394–19.69 rpm to move the crosshead at 1–50 mm/min. Each gearmotor provides 8.2 N·m of rated torque, which exceeds the required 5.64 N·m per screw. The required torque already includes the safety factor of 4.
+I selected two 60 W Oriental Motor brushless DC gearmotors, one for each lead screw. Using the screw lead of 0.100 in/rev from A10, I calculated that each screw must turn at 0.394–19.69 rpm to move the crosshead at 1–50 mm/min. Each gearmotor provides 8.2 N·m of rated torque, which exceeds the required 5.64 N·m per screw. The required torque includes the safety factor of 4.
 
 ![Motor selection reference](ST.jpeg)
 
@@ -16,13 +16,15 @@ I selected two 60 W Oriental Motor brushless DC gearmotors, one for each lead sc
 
 [Oriental Motor gearmotor, gearhead, and driver](https://catalog.orientalmotor.com/en-us/item/blv-r-series-brushless-dc-motor-speed-control/shop-blv-r-series-brushless-dc-motors/blmr460shk-gfv-gfv4g50-blvd-krd)
 
-### Motor Mount 
+### Motor Mount Bracket
 
-I designed an 8 mm thick aluminum plate in SolidWorks to mount each motor to the top of the frame. I used the motor’s four-hole mounting pattern, added four separate holes for the frame bolts, and included a center opening to align the motor shaft with the lead screw. I checked the bearing stress at the bolt holes and selected the 8 mm thickness for stiffness and sufficient thread engagement in the tapped motor holes.
+I designed an 8 mm thick aluminum plate in SolidWorks to mount each motor to the top of the frame. I used the motor’s four-hole mounting pattern, added four separate holes for the frame bolts, and included a center opening to align the motor shaft with the lead screw. I checked the bearing stress at the bolt holes and selected the 8 mm plate for stiffness and thread engagement in the tapped motor holes.
 
 ![Motor mount bearing stress calculations](H2.jpeg)
 
-![SolidWorks model of the motor mount](C1.jpeg)
+![SolidWorks model of the motor mount bracket](C1.jpeg)
+
+[Download the motor mount bracket CAD file (SolidWorks)](<MotorMount(1).SLDPRT>)
 
 ### Coupler Selection
 
